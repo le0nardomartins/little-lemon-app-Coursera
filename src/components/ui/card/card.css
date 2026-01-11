@@ -1,0 +1,85 @@
+.card {
+    border: 1px solid hsl(0,0%, 80%);
+    border-radius: 8px;
+    box-shadow: 0 0 8px 0 hsla(0,0%,0%,.25);
+    margin: 1rem;
+    width: 100%;
+    max-width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    background-color: white;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    border-color: var(--primaryColor);
+}
+
+.card-img {
+    border-radius: 8px 8px 0 0;
+    height: auto;
+    width: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    transition: transform 0.4s ease;
+    object-fit: cover;
+}
+
+.card:hover .card-img {
+    transform: scale(1.05);
+}
+
+.card-body {
+    padding: .95rem;
+    min-height: 250px;
+    margin: 0;
+    transition: background-color 0.3s ease;
+}
+
+.card:hover .card-body {
+    background-color: #fafafa;
+}
+
+.card-details {
+    display: flex;
+    flex: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 1rem 0;
+    max-width: 20ch;
+    color: var(--primaryColor);
+    transition: color 0.3s ease;
+}
+
+.card:hover .card-title {
+    color: var(--secondaryColor);
+}
+
+.card-delivery {
+    border: 1px solid hsl(0,0%, 80%);
+    border-radius: 8px;
+    font-weight: 700;
+    margin: 1rem 0;
+    max-width: fit-content;
+    padding: .5rem 1rem;
+    background-color: #f5f5f5;
+    color: #333;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.card-delivery:hover {
+    background-color: var(--primaryColor);
+    color: white;
+    border-color: var(--primaryColor);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(73, 94, 87, 0.3);
+}

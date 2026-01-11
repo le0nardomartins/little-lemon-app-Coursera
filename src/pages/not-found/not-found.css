@@ -1,0 +1,130 @@
+.not-found-page {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #f9f9f9 0%, #ffffff 100%);
+    padding: 2rem;
+    text-align: center;
+}
+
+.not-found-illustration {
+    margin-bottom: 2rem;
+    animation: bounce 2s infinite;
+}
+
+.emoji {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    animation: rotate 3s infinite ease-in-out;
+}
+
+.error-code {
+    font-size: 8rem;
+    font-weight: 900;
+    color: var(--primaryColor);
+    line-height: 1;
+    margin: 0;
+    font-family: 'Markazi Text', serif;
+    text-shadow: 4px 4px 0px var(--secondaryColor);
+}
+
+.not-found-title {
+    color: var(--primaryColor);
+    margin: 2rem 0 1rem 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.not-found-message {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin: 1.5rem auto;
+    max-width: 600px;
+}
+
+.not-found-suggestion {
+    font-size: 1rem;
+    color: #777;
+    line-height: 1.6;
+    margin: 1rem auto 2rem auto;
+    max-width: 600px;
+}
+
+.home-button {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    background-color: var(--secondaryColor);
+    color: #333;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(244, 206, 20, 0.3);
+}
+
+.home-button:hover {
+    background-color: #e6c012;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(244, 206, 20, 0.4);
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes rotate {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-10deg);
+    }
+    75% {
+        transform: rotate(10deg);
+    }
+}
+
+/* Tablet */
+@media screen and (width >= 768px) {
+    .emoji {
+        font-size: 8rem;
+    }
+
+    .error-code {
+        font-size: 10rem;
+    }
+
+    .not-found-title {
+        font-size: 3rem;
+    }
+
+    .not-found-message {
+        font-size: 1.3rem;
+    }
+}
+
+/* Desktop */
+@media screen and (width >= 1000px) {
+    .emoji {
+        font-size: 10rem;
+    }
+
+    .error-code {
+        font-size: 12rem;
+    }
+
+    .not-found-title {
+        font-size: 3.5rem;
+    }
+}

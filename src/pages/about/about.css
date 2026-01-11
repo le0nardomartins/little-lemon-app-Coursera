@@ -1,0 +1,120 @@
+.about-page {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.about-hero {
+    background-color: var(--primaryColor);
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.about-hero-content h1 {
+    color: var(--secondaryColor);
+    margin: 0 0 1rem 0;
+    font-size: 3rem;
+}
+
+.about-subtitle {
+    font-size: 1.5rem;
+    margin: 0;
+    opacity: 0.9;
+}
+
+.about-content {
+    padding: 4rem 2rem;
+    background-color: #fff;
+}
+
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-story,
+.about-values,
+.about-team {
+    margin-bottom: 4rem;
+}
+
+.about-story h2,
+.about-values h2,
+.about-team h2 {
+    color: var(--primaryColor);
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+
+.about-story p,
+.about-team p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.value-item {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border-left: 4px solid var(--secondaryColor);
+}
+
+.value-item h3 {
+    color: var(--primaryColor);
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+}
+
+.value-item p {
+    line-height: 1.7;
+    color: #555;
+    margin: 0;
+}
+
+/* Tablet */
+@media screen and (width >= 768px) {
+    .about-hero {
+        padding: 5rem 2rem;
+    }
+
+    .about-hero-content h1 {
+        font-size: 4rem;
+    }
+
+    .about-subtitle {
+        font-size: 1.75rem;
+    }
+
+    .values-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Desktop */
+@media screen and (width >= 1000px) {
+    .about-hero {
+        padding: 6rem 2rem;
+    }
+
+    .about-content {
+        padding: 5rem 2rem;
+    }
+
+    .values-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .about-story p,
+    .about-team p {
+        font-size: 1.2rem;
+    }
+}
