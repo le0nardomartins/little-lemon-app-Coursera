@@ -1,4 +1,4 @@
-# Little Lemon - Reservation System
+# Little Lemon
 
 Complete table reservation system for Little Lemon restaurant, developed as the final project for the Coursera Front-End Development program.
 
