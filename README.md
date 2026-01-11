@@ -1,209 +1,199 @@
-# Little Lemon - Sistema de Reservas
+# Little Lemon - Reservation System
 
-Sistema completo de reserva de mesas para o restaurante Little Lemon, desenvolvido como projeto final da formação de Front-End do Coursera.
+Complete table reservation system for Little Lemon restaurant, developed as the final project for the Coursera Front-End Development program.
 
-## 📋 Objetivo
+## 📋 Objective
 
-Este projeto implementa uma aplicação web completa para o restaurante Little Lemon, incluindo:
-- **Sistema de Reservas**: Formulário completo de reserva de mesas
-- **Navegação**: Rotas para diferentes páginas (Home, Sobre, Menu, Reservas, Pedidos Online, Login)
-- **UX/UI**: Interface intuitiva e moderna seguindo o design do Little Lemon
-- **Acessibilidade**: Totalmente acessível para usuários com deficiências
-- **Validações**: Validação robusta de todos os campos do formulário
-- **Responsividade**: Funciona perfeitamente em desktop, tablet e mobile
-- **Testes**: Testes unitários com React Testing Library
+This project implements a complete web application for Little Lemon restaurant, including:
+- **Reservation System**: Complete table reservation form
+- **Navigation**: Routes to different pages (Home, About, Menu, Reservations, Order Online, Login)
+- **UX/UI**: Intuitive and modern interface following Little Lemon's design
+- **Accessibility**: Fully accessible for users with disabilities
+- **Validations**: Robust validation of all form fields
+- **Responsiveness**: Works perfectly on desktop, tablet, and mobile
+- **Tests**: Unit tests with React Testing Library
 
-## 🚀 Como Rodar o Projeto
+## 🚀 How to Run the Project
 
-### Pré-requisitos
+### Prerequisites
 
-- Node.js (versão 16 ou superior)
-- npm ou yarn
+- Node.js (version 16 or higher)
+- npm or yarn
 
-### Instalação
+### Installation
 
-1. Clone o repositório:
+1. Clone the repository:
 ```bash
 git clone https://github.com/le0nardomartins/little-lemon-app-Coursera
 cd final-project_coursera
 ```
 
-2. Instale as dependências:
+2. Install dependencies:
 ```bash
 npm install
 ```
 
-3. Inicie o servidor de desenvolvimento:
+3. Start the development server:
 ```bash
 npm start
 ```
 
-4. Abra o navegador em `http://localhost:3000`
+4. Open your browser at `http://localhost:3000`
 
-O projeto abrirá automaticamente no navegador e recarregará automaticamente quando você fizer alterações nos arquivos.
+The project will automatically open in your browser and reload automatically when you make changes to files.
 
-### Build para Produção
+## 🧪 How to Run Tests
 
-Para criar uma versão otimizada para produção:
-
-```bash
-npm run build
-```
-
-Isso criará uma pasta `build` com os arquivos otimizados prontos para deploy.
-
-## 🧪 Como Rodar os Testes
-
-### Executar todos os testes:
+### Run all tests:
 ```bash
 npm test
 ```
 
-Os testes serão executados em modo watch. Pressione `a` para executar todos os testes, ou `q` para sair.
+Tests will run in watch mode. Press `a` to run all tests, or `q` to quit.
 
-### Executar testes com cobertura:
+### Run tests with coverage:
 ```bash
 npm test -- --coverage
 ```
 
-## 📦 Dependências
+## 📦 Dependencies
 
-### Dependências Principais
-- **react** (^18.2.0): Biblioteca principal do React
-- **react-dom** (^18.2.0): Renderização do React no DOM
-- **react-router-dom** (^6.20.0): Roteamento para aplicações React
-- **react-scripts** (5.0.1): Scripts e configuração do Create React App
-- **web-vitals** (^3.5.0): Métricas de performance web
-- **react-icons** (^4.12.0): Biblioteca de ícones para React
-- **react-use** (^17.4.2): Coleção de hooks úteis para React
-- **hamburger-react** (^2.5.0): Componente de menu hambúrguer animado
-- **framer-motion** (^10.16.16): Biblioteca de animações para React
+### Main Dependencies
+- **react** (^18.2.0): Main React library
+- **react-dom** (^18.2.0): React DOM rendering
+- **react-router-dom** (^6.20.0): Routing for React applications
+- **react-scripts** (5.0.1): Scripts and configuration for Create React App
+- **web-vitals** (^3.5.0): Web performance metrics
+- **react-icons** (^4.12.0): Icon library for React
+- **react-use** (^17.4.2): Collection of useful React hooks
+- **hamburger-react** (^2.5.0): Animated hamburger menu component
+- **framer-motion** (^10.16.16): Animation library for React
 
-### Dependências de Desenvolvimento
-- **@testing-library/react** (^14.1.2): Utilitários para testar componentes React
-- **@testing-library/jest-dom** (^6.1.5): Matchers adicionais para testes
-- **@testing-library/user-event** (^14.5.1): Simulação de eventos do usuário
+### Development Dependencies
+- **@testing-library/react** (^14.1.2): Utilities for testing React components
+- **@testing-library/jest-dom** (^6.1.5): Additional matchers for tests
+- **@testing-library/user-event** (^14.5.1): User event simulation
 
-## 🛠️ Tecnologias Usadas
+## 🛠️ Technologies Used
 
-- **React 18**: Biblioteca JavaScript para construção de interfaces
-- **React Router**: Roteamento e navegação entre páginas
-- **Create React App**: Ferramenta para criar e configurar projetos React
-- **React Testing Library**: Biblioteca para testar componentes React
-- **CSS3**: Estilização com CSS puro
-- **HTML5 Semântico**: Uso de elementos semânticos
+- **React 18**: JavaScript library for building user interfaces
+- **React Router**: Routing and navigation between pages
+- **Create React App**: Tool for creating and configuring React projects
+- **React Testing Library**: Library for testing React components
+- **CSS3**: Styling with pure CSS
+- **Semantic HTML5**: Use of semantic elements
 
-## ✨ Funcionalidades
+## ✨ Features
 
-### Páginas Disponíveis
-- ✅ **Home**: Página inicial com destaques, depoimentos e informações
-- ✅ **Sobre**: Informações sobre o restaurante
-- ✅ **Menu**: Cardápio do restaurante
-- ✅ **Reservas**: Formulário completo de reserva de mesas
-- ✅ **Confirmação**: Página de confirmação de reserva
-- ✅ **Pedidos Online**: Sistema de pedidos online
-- ✅ **Login**: Página de login
-- ✅ **404**: Página de erro para rotas não encontradas
+### Available Pages
+- ✅ **Home**: Homepage with highlights, testimonials, and information
+- ✅ **About**: Information about the restaurant
+- ✅ **Menu**: Restaurant menu
+- ✅ **Reservations**: Complete table reservation form
+- ✅ **Confirmation**: Reservation confirmation page
+- ✅ **Order Online**: Online ordering system
+- ✅ **Login**: Login page
+- ✅ **404**: Error page for routes not found
 
-### Sistema de Reservas
-- ✅ Seleção de data (com validação de datas passadas)
-- ✅ Seleção de horário (dinâmico baseado na data)
-- ✅ Número de pessoas (1 a 10)
-- ✅ Tipo de ocasião (Birthday, Anniversary, etc.)
-- ✅ Validação completa de todos os campos
-- ✅ Confirmação de reserva
+### Reservation System
+- ✅ Date selection (with validation for past dates)
+- ✅ Time selection (dynamic based on selected date)
+- ✅ Number of people (1 to 10)
+- ✅ Occasion type (Birthday, Anniversary, etc.)
+- ✅ Complete validation of all fields
+- ✅ Reservation confirmation
 
-### Validações Implementadas
-- ✅ Data não pode ser no passado
-- ✅ Todos os campos são obrigatórios
-- ✅ Número de pessoas entre 1 e 10
-- ✅ Horários disponíveis baseados na data selecionada
-- ✅ Mensagens de erro descritivas e visíveis
+### Implemented Validations
+- ✅ Date cannot be in the past
+- ✅ All fields are required
+- ✅ Number of people between 1 and 10
+- ✅ Available times based on selected date
+- ✅ Descriptive and visible error messages
 
-### Acessibilidade
-- ✅ Atributos `aria-label` e `aria-describedby`
-- ✅ Labels associados aos campos
-- ✅ Navegação por teclado funcional
-- ✅ Leitura coerente por screen readers
-- ✅ Elementos semânticos HTML5
+### Accessibility
+- ✅ `aria-label` and `aria-describedby` attributes
+- ✅ Labels associated with fields
+- ✅ Functional keyboard navigation
+- ✅ Coherent reading by screen readers
+- ✅ Semantic HTML5 elements
 
-### Responsividade
-- ✅ **Mobile**: Layout otimizado para telas pequenas
-- ✅ **Tablet**: Layout adaptado para tablets
-- ✅ **Desktop**: Layout completo para desktop
+### Responsiveness
+- ✅ **Mobile**: Layout optimized for small screens
+- ✅ **Tablet**: Layout adapted for tablets
+- ✅ **Desktop**: Complete layout for desktop
 
 ## 🎨 Design
 
-O design segue as cores e identidade visual do Little Lemon:
-- **Verde Primário**: #495E57
-- **Amarelo Primário**: #F4CE14
-- **Laranja Secundário**: #EE9972
-- **Bege Secundário**: #FBDABB
-- **Cinza Claro**: #EDEFEE
-- **Cinza Escuro**: #333333
+The design follows Little Lemon's colors and visual identity:
+- **Primary Green**: #495E57
+- **Primary Yellow**: #F4CE14
+- **Secondary Orange**: #EE9972
+- **Secondary Beige**: #FBDABB
+- **Light Gray**: #EDEFEE
+- **Dark Gray**: #333333
 
-## 🧪 Testes
+## 🧪 Tests
 
-Os testes cobrem:
-- ✅ Renderização de componentes
-- ✅ Navegação entre páginas
-- ✅ Validações do formulário de reserva
-- ✅ Funcionalidades principais
+Tests cover:
+- ✅ Component rendering
+- ✅ Navigation between pages
+- ✅ Reservation form validations
+- ✅ Main functionalities
 
-## 🚀 Scripts Disponíveis
+## 🚀 Available Scripts
 
-- `npm start`: Inicia o servidor de desenvolvimento
-- `npm run build`: Cria build de produção
-- `npm test`: Executa os testes em modo watch
-- `npm run eject`: Remove a dependência do react-scripts (irreversível)
+- `npm start`: Starts the development server
+- `npm run build`: Creates production build
+- `npm test`: Runs tests in watch mode
+- `npm run eject`: Removes react-scripts dependency (irreversible)
 
-## 📝 Semântica HTML
+## 📝 HTML Semantics
 
-O projeto utiliza elementos semânticos:
-- `<main>`: Conteúdo principal
-- `<header>`: Cabeçalho
-- `<nav>`: Navegação
-- `<section>`: Seções do conteúdo
-- `<article>`: Artigos
-- `<footer>`: Rodapé
-- `<form>`: Formulários
+The project uses semantic elements:
+- `<main>`: Main content
+- `<header>`: Header
+- `<nav>`: Navigation
+- `<section>`: Content sections
+- `<article>`: Articles
+- `<footer>`: Footer
+- `<form>`: Forms
 
-## 📄 Licença
+## 📄 License
 
-Este projeto está licenciado sob uma licença personalizada que **PROÍBE**:
+This project is licensed under a custom license that **PROHIBITS**:
 
-- ❌ **Uso comercial** de qualquer tipo
-- ❌ **Submissão em projetos acadêmicos**, incluindo:
-  - Projetos Capstone do Coursera
-  - Qualquer outro projeto de curso do Coursera
-  - Trabalhos acadêmicos, teses ou avaliações
-- ❌ **Plágio ou uso como trabalho próprio**
-- ❌ **Uso para passar em avaliações acadêmicas**
+- ❌ **Commercial use** of any kind
+- ❌ **Submission in academic projects**, including:
+  - Coursera Capstone Projects
+  - Any other Coursera course projects
+  - Academic assignments, theses, or evaluations
+- ❌ **Plagiarism or use as own work**
+- ❌ **Use to pass academic evaluations**
 
-Este projeto foi desenvolvido por **Leonardo Martins Cunha** como seu projeto Capstone pessoal. 
-**É estritamente proibido** que outras pessoas usem este código para:
-- Submeter como trabalho próprio
-- Passar em avaliações acadêmicas
-- Violar políticas de integridade acadêmica
+This project was developed by **Leonardo Martins Cunha** as his personal Capstone project.
+**It is strictly prohibited** for other people to use this code to:
+- Submit as their own work
+- Pass academic evaluations
+- Violate academic integrity policies
 
-**Permitido apenas para:**
-- ✅ Estudo e aprendizado pessoal
-- ✅ Referência educacional (sem submissão)
-- ✅ Criação de trabalhos derivados para aprendizado pessoal
+**Allowed only for:**
+- ✅ Personal study and learning
+- ✅ Educational reference (without submission)
+- ✅ Creation of derivative works for personal learning
 
-Para mais detalhes, consulte o arquivo [LICENSE](LICENSE).
+For more details, see the [LICENSE](LICENSE) file.
 
-**Violações desta licença podem resultar em:**
-- Penalidades acadêmicas
-- Banimento permanente de plataformas educacionais
-- Consequências legais por violação de direitos autorais
+**Violations of this license may result in:**
+- Academic penalties
+- Permanent ban from educational platforms
+- Legal consequences for copyright infringement
 
-## 👤 Autor
+## 👤 Author
 
 **Leonardo Martins Cunha**
 
-- 🌐 Portfólio: [leonardomartins.dev](https://leonardomartins.dev)
+- 🌐 Portfolio: [leonardomartins.dev](https://leonardomartins.dev)
 
 ---
 
-**Nota**: Este projeto foi desenvolvido seguindo as melhores práticas de desenvolvimento em React, com foco em acessibilidade, responsividade e qualidade de código.
+**Note**: This project was developed following React development best practices, with focus on accessibility, responsiveness, and code quality.
