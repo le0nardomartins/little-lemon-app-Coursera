@@ -45,10 +45,10 @@ const Footer = () => {
                                 {t.addressLine2}
                             </p>
                             <p className='contact-item'>
-                                <a href="mailto:info@littlelemon.com.br">info@littlelemon.com.br</a>
+                                <a href={`mailto:${t.email}`}>{t.email}</a>
                             </p>
                             <p className='contact-item'>
-                                <a href="tel:+5511987654321">(11) 98765-4321</a>
+                                <a href={`tel:${t.phone.replace(/\D/g, '')}`}>{t.phone}</a>
                             </p>
                     </address>
                 </section>
